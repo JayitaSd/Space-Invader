@@ -59,7 +59,7 @@ bullet_state = "ready"
 score_value = 0
 font = pygame.font.Font('freesansbold.ttf', 32)
 
-#positioning
+#positioning of score
 textX = 10
 textY=10
 
@@ -193,5 +193,3 @@ while running:
     showscore(textX, textY)
 
     pygame.display.update() #updating the color of the screen again and again
-
-#1.44.48
